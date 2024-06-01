@@ -16,15 +16,15 @@ public class Main {
     public static void main(String[] args) {
 
         //citesc primul numar
-        System.out.print("introdu nr 1 de preferabil 10: ");
+        System.out.print("enter first number: ");
         int nr1 = scanner.nextLine();
 
         //citesc al doilea numar
-        System.out.print("introdu nr 2 de preferabil 3: ");
+        System.out.print("enter second number: ");
         int nr2 = scanner.nextLine();
 
 
-        System.out.println("rezultatul= " + nr1/nr2);
+        System.out.println("The remainder % of the division bertween " + nr1 + " and " + nr2 + nr1 % nr2);
 
 
     }
